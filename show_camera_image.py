@@ -6,19 +6,10 @@ pygame.init()
 
 # set up the window
 screen = pygame.display.set_mode((160, 124), 0, 32)
-
-# set up the colors
-BLACK = (  0,   0,   0)
-WHITE = (255, 255, 255)
-RED   = (255,   0,   0)
-GREEN = (  0, 255,   0)
-BLUE  = (  0,   0, 255)
-
-# draw on the surface object
-screen.fill(BLACK)
+screen.fill(0)
 
 basicfont = pygame.font.SysFont(None, 15)
-text = basicfont.render('Hello World!', True, WHITE)
+text = basicfont.render('Hello World!', True, (255, 255, 255))
 textrect = text.get_rect()
 #textrect.centerx = screen.get_rect().centerx
 textrect.left = screen.get_rect().centerx
