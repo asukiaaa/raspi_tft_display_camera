@@ -39,6 +39,12 @@ sudo apt install python3-pygame python3-picamera
 sudo modprobe fbtft_device name=adafruit18 gpios=reset:22,dc:27,cs:3 rotate=90
 ```
 
+Stop fbtft_device
+(But sometime it is not enough. I suggest rebooting to reset fbtft.)
+```
+sudo modprobe -r fbtft_device
+```
+
 ## Show hello world
 ```
 sudo python3 hello.py
