@@ -73,9 +73,11 @@ python3 [path for this project]/[program name] &
 MIT
 
 # References
+- [Raspberry Piに0.96インチのLCDを付けて、カメラの画像を表示してみた](http://asukiaaa.blogspot.jp/2018/03/raspberry-pi096lcd.html)
 - [Raspberry Pi 2でカラーグラフィック液晶の制御](https://sakura87.net/archives/2232)
 - [サインスマート 1.8″ TFT カラー LCD用のグラフィックライブラリの作成](https://qiita.com/TomoSoft/items/15430603cc8294130d8d)
 - [adafruit/Adafruit-ST7735-Library](https://github.com/adafruit/Adafruit-ST7735-Library)
 - [Wiring & Test | Adafruit Mini TFT - 0.96" 160x80](https://learn.adafruit.com/adafruit-mini-tft-0-dot-96-inch-180x60-breakout/wiring-test)
 - [ILI9341ベースのQVGA/SPI TFT液晶モジュールを試してみる](https://qiita.com/toyoshim/items/84c026e97f6be200cb19)
 - [Sensor Modes | Picamera Hardware](https://picamera.readthedocs.io/en/release-1.13/fov.html#sensor-modes)
+- [adafruit-pi-cam/cam.py](https://github.com/adafruit/adafruit-pi-cam/blob/master/cam.py)
