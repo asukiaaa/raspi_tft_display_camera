@@ -61,6 +61,14 @@ sudo python3 drawing.py
 sudo python3 show_camera_image.py
 ```
 
+## Auto start
+Add commands to `/etc/rc.local`.
+
+```
+modprobe fbtft_device name=adafruit18 gpios=reset:22,dc:27,cs:3 rotate=90
+python3 [path for this project]/[program name] &
+```
+
 # License
 MIT
 
