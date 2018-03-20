@@ -1,5 +1,5 @@
 # raspi_tft_display_camera
-![image](immages/pi_lcd_camera_viewer.jpg)
+![image](images/pi_lcd_camera_viewer.jpg)
 
 # Components
 - Raspberry pi (Tested with using zero WH)
